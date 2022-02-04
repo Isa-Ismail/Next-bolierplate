@@ -4,6 +4,9 @@ import Layout from "../components/Layout"
 const NewsFeed = () => {
   return (
     <Layout>
+        <div className = 'min-h-10rem'>
+          <h4>Hello world</h4>
+        </div>
         <div className = 'text-center space-x-16 py-60'>
           <Button className='bg-slate-900' variant="contained">Signup</Button>
           <Button className='bg-slate-900' variant="contained">Check Out Plans</Button>
