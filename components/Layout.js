@@ -20,7 +20,7 @@ const Layout = ({title ,children, description}) => {
       })
 
     return (
-        <div>
+        <div className="bg-cover bg-center bg-[url('https://wallpaperaccess.com/full/1356145.jpg')]">
             
             {/* head portion for seo */}
             <Head>
@@ -35,7 +35,7 @@ const Layout = ({title ,children, description}) => {
 
                 <Navbar />
 
-                <Container className = '!min-h-[30rem] !max-w-[70rem]'>
+                <Container className = '!min-h-[40rem] !max-w-[70rem]'>
                     {children}
                 </Container>
 
