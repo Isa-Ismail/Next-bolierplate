@@ -10,9 +10,10 @@
 
 
 h3{
-    font-family: 'Caveat', cursive;
+    font-family: 'Ubuntu Mono';
+    font-size: 1.5rem;
 }
 h4{
-    font-family: 'Caveat', cursive;
-    font-size: 4rem;
+    font-family: 'Ubuntu Mono';
+    font-size: 1rem;
 }

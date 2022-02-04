@@ -1,22 +1,25 @@
-import { Face, AndroidRounded } from "@mui/icons-material";
-import { AppBar, Toolbar, Typography } from "@mui/material"
+import { AndroidRounded, ShoppingBag } from "@mui/icons-material"
+import { AppBar, Toolbar } from "@mui/material"
+
 const Navbar = () => {
-  return <AppBar position = 'static' className = '!bg-cyan-900 !flex !flex-row'>
-            <Toolbar className = 'flex-col py-4 items-center'>
+  return (<AppBar position = 'static' className = '!bg-emerald-300 !flex !flex-row'>
+            <Toolbar className = 'flex-col py-1 items-center'>
                 {/* logo */}
                 <AndroidRounded />
-                <Typography>Projects</Typography>
+                <h4>projects</h4>
             </Toolbar>
-            <Toolbar className = 'flex-col py-4 items-center'>
+            <Toolbar className = 'flex-col py-1 items-center'>
                 {/* logo */}
-                <Typography>Projects</Typography>
+                <ShoppingBag />
+                <h4>go shopping</h4>
             </Toolbar>
             <div className = '!flex-grow'></div>
-            <Toolbar>
+            <Toolbar className = 'flex-col py-1 items-center'>
                 {/* logo */}
-                <Typography>Check Offers</Typography>
+                <AndroidRounded />
+                <h4>sign up</h4>
             </Toolbar>
-        </AppBar>
+        </AppBar>)
 };
 
-export default Navbar;
+export default Navbar

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Footer from './Footer'
-import { AppBar, Typography, Toolbar, Container, createTheme, ThemeProvider, CssBaseline } from '@material-ui/core'
+import { AppBar, Typography, Toolbar, Container, createTheme, ThemeProvider, CssBaseline } from '@mui/material'
 import Navbar from './Navbar'
 
 const Layout = ({title ,children, description}) => {
